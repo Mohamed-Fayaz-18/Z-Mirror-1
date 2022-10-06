@@ -56,10 +56,10 @@ def stats(update, context):
 
 def start(update, context):
     buttons = ButtonMaker()
-    buttons.buildbutton("Report Group", "https://t.me/Mltb_chat_unofficial")
-    buttons.buildbutton("Repo", "https://github.com/Dawn-India/Z-Mirror")
-    buttons.buildbutton("Mirror Group", "https://t.me/z_mirror")
-    buttons.buildbutton("Owner", "https://t.me/z_mirror")
+    buttons.buildbutton("Developer", "https://t.me/KOT_FREE_DE_LA_HOYA_OFF")
+    buttons.buildbutton("Bots Channel", "https://t.me/KOT_BOTS")
+    buttons.buildbutton("Mirror Group", "https://t.me/KOT_MIRROR_ZONE")
+    buttons.buildbutton("TEAM", "https://t.me/KOT_LINKS_TEAM")
     reply_markup = buttons.build_menu(2)
     if CustomFilters.authorized_user(update) or CustomFilters.authorized_chat(update):
         start_string = f'''
